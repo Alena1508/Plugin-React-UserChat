@@ -1,19 +1,17 @@
-# Plugin-React-UserTour
+# Plugin-React-UserChat
 
-This plugin is used to support User Tour around a PulseTile ReactJS based application.
+This plugin is used to support User Chat around a PulseTile ReactJS based application.
 
 # Installation
 
 This plugin installed automatically by Yeoman-generator: https://www.npmjs.com/package/generator-helm-phr
 
 Generator does the following:
-1) Clone UserTour from GitHub repository;
-2) Overwrite directory **_src/components/containers/UserTour/_** in the Core-part
+1) Clone UserChat from GitHub repository;
+2) Overwrite directory **_src/components/containers/UserChat/_** in the Core-part
 
 # Working principle
 
-When user login to the site in first time, User Tour is run automatically.
+When user want to ask some question to Support Service, User Chat is run automatically.
 
-If user has passed the tour, information about it is added to Cookie. 
 
-Button "?" for Tour running is replaced by link to MyHelm.org
