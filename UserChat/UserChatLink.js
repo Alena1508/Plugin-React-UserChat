@@ -1,6 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { NoScript } from 'react-noscript';
+import './style.scss';
 
 
 class UserChatLink extends React.Component {
